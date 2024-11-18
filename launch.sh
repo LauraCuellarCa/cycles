@@ -13,7 +13,7 @@ EOF
 ./build/bin/server &
 sleep 1
 
-for i in {1..20}
+for i in {1..15}
 do
 ./build/bin/client randomio$i &
 
